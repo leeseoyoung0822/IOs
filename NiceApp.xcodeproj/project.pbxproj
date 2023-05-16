@@ -15,6 +15,7 @@
 		1D2738E629C4D42F00283AD4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D2738E529C4D42F00283AD4 /* Assets.xcassets */; };
 		1D2738E929C4D42F00283AD4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D2738E729C4D42F00283AD4 /* LaunchScreen.storyboard */; };
 		1D2738F229C5842F00283AD4 /* 139849-in-tempus.json in Resources */ = {isa = PBXBuildFile; fileRef = 1D2738F129C5842F00283AD4 /* 139849-in-tempus.json */; };
+		1D4C68772A0345350021FD1C /* ProgressBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D4C68762A0345350021FD1C /* ProgressBarViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		1D2738E829C4D42F00283AD4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1D2738EA29C4D42F00283AD4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1D2738F129C5842F00283AD4 /* 139849-in-tempus.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "139849-in-tempus.json"; sourceTree = "<group>"; };
+		1D4C68762A0345350021FD1C /* ProgressBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressBarViewController.swift; sourceTree = "<group>"; };
 		1DACC2DD92DFCA28FBD3B134 /* Pods-NiceApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NiceApp.debug.xcconfig"; path = "Target Support Files/Pods-NiceApp/Pods-NiceApp.debug.xcconfig"; sourceTree = "<group>"; };
 		79384DB35493DB70D6345EE6 /* Pods-NiceApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NiceApp.release.xcconfig"; path = "Target Support Files/Pods-NiceApp/Pods-NiceApp.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -65,24 +67,17 @@
 		1D2738DB29C4D42E00283AD4 /* NiceApp */ = {
 			isa = PBXGroup;
 			children = (
+				1D2738E029C4D42E00283AD4 /* MainViewController.swift */,
 				1D2738F129C5842F00283AD4 /* 139849-in-tempus.json */,
-				1D2738F029C4D43E00283AD4 /* ViewControllers */,
 				1D2738DC29C4D42E00283AD4 /* AppDelegate.swift */,
 				1D2738DE29C4D42E00283AD4 /* SceneDelegate.swift */,
 				1D2738E229C4D42E00283AD4 /* Main.storyboard */,
 				1D2738E529C4D42F00283AD4 /* Assets.xcassets */,
 				1D2738E729C4D42F00283AD4 /* LaunchScreen.storyboard */,
 				1D2738EA29C4D42F00283AD4 /* Info.plist */,
+				1D4C68762A0345350021FD1C /* ProgressBarViewController.swift */,
 			);
 			path = NiceApp;
-			sourceTree = "<group>";
-		};
-		1D2738F029C4D43E00283AD4 /* ViewControllers */ = {
-			isa = PBXGroup;
-			children = (
-				1D2738E029C4D42E00283AD4 /* MainViewController.swift */,
-			);
-			path = ViewControllers;
 			sourceTree = "<group>";
 		};
 		A5E702E46F9A5718ED503EB8 /* Frameworks */ = {
@@ -221,6 +216,7 @@
 				1D2738E129C4D42E00283AD4 /* MainViewController.swift in Sources */,
 				1D2738DD29C4D42E00283AD4 /* AppDelegate.swift in Sources */,
 				1D2738DF29C4D42E00283AD4 /* SceneDelegate.swift in Sources */,
+				1D4C68772A0345350021FD1C /* ProgressBarViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -368,6 +364,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9S9QZJ92HU;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = NiceApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -396,6 +393,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9S9QZJ92HU;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = NiceApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
